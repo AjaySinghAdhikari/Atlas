@@ -1,0 +1,15 @@
+{
+  "name": "atlas",
+  "version": "1.0.0",
+  "description": "Atlas — Your Personal Knowledge Base",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "node launch.js",
+    "build-frontend": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "electron": "^31.7.7",
+    "wait-on": "^7.2.0"
+  }
+}
